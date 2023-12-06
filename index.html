@@ -6,6 +6,16 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HELLO WORLD!</h1>
+    <h1>Data from Google Sheets:</h1>
+    <div id="sheetData"></div>
+
+    <!-- Include the Google Sheets API and func.js -->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="func.js"></script>
+
+    <script>
+        // Initialize the API client and start the authentication process
+        init();
+    </script>
 </body>
 </html>
